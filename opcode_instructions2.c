@@ -1,5 +1,6 @@
 #include "monty.h"
 
+
 /**
  * _queue - sets the format of the data to a queue (FIFO)
  *
@@ -59,6 +60,7 @@ void _add(stack_t **doubly, unsigned int cline)
 	_pop(doubly, cline);
 }
 
+
 /**
  * _nop - doesn't do anythinhg
  *
@@ -71,6 +73,7 @@ void _nop(stack_t **doubly, unsigned int cline)
 	(void)doubly;
 	(void)cline;
 }
+
 
 /**
  * _sub - subtracts the top element to the second top element of the stack
