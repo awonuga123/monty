@@ -9,6 +9,7 @@
 #include <fcntl.h>
 #include <ctype.h>
 
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -18,12 +19,14 @@
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO Holberton project
  */
+
 typedef struct stack_s
 {
 	int n;
 	struct stack_s *prev;
 	struct stack_s *next;
 } stack_t;
+
 
 /**
  * struct globals - global structure to use in the functions
@@ -37,6 +40,7 @@ typedef struct stack_s
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO ALX
  */
+
 typedef struct globals
 {
 	int lifo;
@@ -55,6 +59,7 @@ typedef struct globals
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO Holberton project
  */
+
 typedef struct instruction_s
 {
 	char *opcode;
